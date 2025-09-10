@@ -11,29 +11,31 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-scripts": "^0.0.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "https://cristianogithub1.github.io/landingpage"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
-"eslintConfig": {
-  "extends": [
-    "eslint:recommended"
-  ],
-  "env": {
-    "browser": true,
-    "es2021": true
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended"
+    ],
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "rules": {}
   },
-  "parserOptions": {
-    "ecmaVersion": 12,
-    "sourceType": "module"
-  },
-  "rules": {}
-},
-
   "browserslist": {
     "production": [
       ">0.2%",
@@ -49,6 +51,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "eslint-config-react-app": "^7.0.1",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.13"
   }
