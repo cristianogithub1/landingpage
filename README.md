@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# 🌟 Landing Page Profissional - Cristiano Barreto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot da Landing Page](public/screenshot.png)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 👋 Sobre mim
 
-### `npm start`
+Olá, eu sou **Cristiano Chagas Barreto**, desenvolvedor **Full Stack** em constante evolução.  
+Atualmente, desenvolvo aplicações modernas com **React, Node.js, JavaScript, MongoDB e Firebase**.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tenho experiência na criação de:
+- Blogs e páginas institucionais.
+- Landing pages modernas e responsivas.
+- Sistemas integrados com APIs.
+- Páginas para comércio (com pedidos via WhatsApp e integração com redes sociais).
+- Projetos personalizados (como rifa de chá de fraldas integrada ao Firebase).  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Tecnologias utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js**
+- **TailwindCSS**
+- **Framer Motion**
+- **JavaScript (ES6+)**
+- **Firebase**
+- **Git/GitHub**
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🌐 Acesse a Landing Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+👉 [Landing Page no GitHub Pages](https://cristianogithub1.github.io/landingpage)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📬 Contato
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 📧 Email: **cristiano.dev81@gmail.com**  
+- 📱 WhatsApp: **+55 (22) 99844-8059**  
+- 💻 GitHub: [github.com/cristianogithub1](https://github.com/cristianogithub1)  
+- 🧑‍💻 Workana: [Meu Perfil Workana](https://www.workana.com/freelancer/c689f5fb908488d439172d5ed45d209d)  
+- 🔗 LinkedIn: [Meu Perfil LinkedIn](https://www.linkedin.com/in/cris-dev-barreto?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚡ Como rodar o projeto localmente
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Clone o repositório
+git clone https://github.com/cristianogithub1/landingpage.git
 
-## Learn More
+# Acesse a pasta do projeto
+cd landingpage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Instale as dependências
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Rode o servidor local
+npm start
